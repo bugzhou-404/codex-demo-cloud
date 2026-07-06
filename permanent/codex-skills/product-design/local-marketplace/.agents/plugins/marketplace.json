@@ -1,0 +1,20 @@
+{
+  "name": "role-specific-plugins-local-backup",
+  "interface": {
+    "displayName": "Role-Specific Plugins Local Backup"
+  },
+  "plugins": [
+    {
+      "name": "product-design",
+      "source": {
+        "source": "local",
+        "path": "./plugins/product-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Design"
+    }
+  ]
+}
