@@ -1,0 +1,33 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.token
+*.secret
+
+# Logs
+*.log
+logs/
+
+# Dependency folders
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Cache and temporary files
+.cache/
+.tmp/
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
